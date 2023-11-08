@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
       - name: download
         run: |
-          wget -O ./downloads/download.zip -P ./downloads/ https://huggingface.co/VideoCrafter/Image2Video-512/tree/main
+          wget -O ./downloads/download.zip -P ./downloads/ https://cdn-lfs.huggingface.co/repos/c9/54/c954cde768cd90d45c0bd2b8a566a56bd1cc3473c8915902e406b29bbe888fb2/b8945dfadc7e5f2a852836e33bb4622cc2e674746ba7a87c8fce9ec96aa978cf?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27model.ckpt%3B+filename%3D%22model.ckpt%22%3B&Expires=1699681914&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5OTY4MTkxNH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy9jOS81NC9jOTU0Y2RlNzY4Y2Q5MGQ0NWMwYmQyYjhhNTY2YTU2YmQxY2MzNDczYzg5MTU5MDJlNDA2YjI5YmJlODg4ZmIyL2I4OTQ1ZGZhZGM3ZTVmMmE4NTI4MzZlMzNiYjQ2MjJjYzJlNjc0NzQ2YmE3YTg3YzhmY2U5ZWM5NmFhOTc4Y2Y%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=YxWeHicoun3-qIU57w7G192wx5izHt%7Epk-IccCD2pmBgMBMmjKfO9GGSUykVnu6hOOGyucAW4%7EejbGG4jKrnJrWtq5ciE8kelLMN4GQAowWi%7Ebn9FreBOMm0X4EO4GEZYGd-m5FJDKQjel-8UGrdHiPbo%7EDX7ubmeaOzNUh%7ErE1301xtAOOTaCsOawI9BatuqdJg24En9OmFYwayFArOO6iErXHmrJCl2dusZsGb4-EjTA0hmVXa6FgWDNj1-ByhCfYXZJQOHhL4XUh7JJPxsjaSbclB%7EVB1CNJsnaTIqRcQftPmxw9R0jQpa5xX3dXM3O9ZAkpIIevzE4cJB-mRZA__&Key-Pair-Id=KVTP0A1DKRTAX
 
       - name: split
         run: |
