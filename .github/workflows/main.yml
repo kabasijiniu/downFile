@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
       - name: download
         run: |
-          wget -O download.zip -P ./downloads/ https://huggingface.co/VideoCrafter/Image2Video-512/tree/main
+          wget -O ./downloads/download.zip -P ./downloads/ https://huggingface.co/VideoCrafter/Image2Video-512/tree/main
 
       - name: split
         run: |
